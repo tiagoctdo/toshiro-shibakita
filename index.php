@@ -7,6 +7,7 @@
 
 <?php
 ini_set("display_errors", 1);
+error_reporting(E_ALL)  - **Uso**: Ideal para detectar todos os problemas durante o desenvolvimento, garantindo que até os menores avisos sejam visíveis.
 header('Content-Type: text/html; charset=iso-8859-1');
 
 
